@@ -1,4 +1,4 @@
 [
-	{ "keyPath": "allowedkeys/prod_rsa.pub", "bucketName": "prod-bucket" },
-	{ "keyPath": "allowedkeys/stg_rsa.pub", "bucketName": "stg-bucket" }
+	{ "keyPath": "allowedkeys/prod_rsa.pub", "bucketName": "sftp-prod-bucket" },
+	{ "keyPath": "allowedkeys/stg_rsa.pub", "bucketName": "sftp-stg-bucket" }
 ]
