@@ -12,6 +12,9 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 COPY .env ./.env
 COPY keys/** ./keys/
+COPY keys.json ./
+COPY allowedkeys/** ./allowedkeys/
+COPY users.json ./
 RUN npm install --only=production
 COPY --from=0 /usr/src/app/dist ./dist
 EXPOSE 9022
