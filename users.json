@@ -1,4 +1,4 @@
 [
-	["stg", { "bucketName": "stg-bucket", "password": "stg-password" }],
-	["prod", { "bucketName": "prod-bucket", "password": "prod-password" }]
+	["stg", { "bucketName": "sftp-stg-bucket", "password": "stg-password" }],
+	["prod", { "bucketName": "sftp-prod-bucket", "password": "prod-password" }]
 ]
